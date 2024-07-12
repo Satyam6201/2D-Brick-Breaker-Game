@@ -1,0 +1,35 @@
+.container {
+    height: 400px;
+    width: 90%;
+    margin-left: 5%;
+    overflow: hidden;
+    border: 1px solid black;
+    margin-top: 20px;
+    position: relative;
+    background-color: rgb(27, 26, 23);
+    box-shadow: 2px 2px 2px rgb(245, 135, 135) ;
+}
+
+
+.score, 
+.lives {
+    font-size: 2em;
+}
+
+.brick {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 91px;
+    height: 40px;
+    padding: 1px;
+    color:rgb(194, 79, 79);
+    border: 1px solid rgb(241, 238, 238);
+    font-size: 1.8em;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 1px 2px 1px rgb(88, 87, 87);
+}
+.brick:hover{
+    opacity: 0.3;
+}
