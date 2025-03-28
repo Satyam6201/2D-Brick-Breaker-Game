@@ -6,7 +6,7 @@
     border: 1px solid black;
     margin-top: 20px;
     position: relative;
-    background-color: rgb(27, 26, 23);
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
     box-shadow: 2px 2px 2px rgb(245, 135, 135) ;
 }
 
@@ -23,7 +23,7 @@
     width: 91px;
     height: 40px;
     padding: 1px;
-    color:rgb(194, 79, 79);
+    color:rgb(168, 227, 72);
     border: 1px solid rgb(241, 238, 238);
     font-size: 1.8em;
     text-align: center;
