@@ -8,8 +8,15 @@
     <link rel="icon" href="image.webp">
 </head>
 <body>
+    <button id="themeToggle" class="theme-toggle">Toggle Theme</button>
     <div> <b>Score :</b> <span class="score"></span> <b>Lives :</b> <span class="lives"></span> </div>
     <div class="container"></div>
+
+    <div class="buttons">
+    <button id="startBtn" onclick="startGame()">Start Game</button>
+    <button id="restartBtn" onclick="restartGame()" style="display:none;">Restart Game</button>
+    </div>
+
    <script src="app.js"></script>
 </body>
 </html>
