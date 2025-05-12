@@ -8,15 +8,20 @@
   <link rel="icon" href="image.webp" />
 </head>
 <body class="light-mode">
-  <header>
-    <h1>🎮 2D Brick Breaker</h1>
-    <button id="toggleMode">🌙 Dark Mode</button>
-  </header>
+  
+  <div class="game-overlay">
+    <header>
+      <h1 style="font-size: 32px; text-shadow: 0 0 10px #0ff;">🎮 2D Brick Breaker</h1>
+      <button id="toggleMode">🌙 Dark Mode</button>
+    </header>
+
+    <div id="gameMessage"></div>
+  </div>
 
   <div class="info-bar">
-    <b>Score:</b> <span class="score">0</span>
-    <b>Lives:</b> <span class="lives">3</span>
-    <b>Level:</b> <span class="level">1</span>
+    <span class="score">Score: 0</span>
+    <span class="lives">Lives: 3</span>
+    <span class="level">Level: 1</span>
     <button id="restartBtn">🔁 Restart</button>
   </div>
 
