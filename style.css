@@ -124,3 +124,91 @@ body.dark-mode {
 body {
     animation: backgroundAnimation 5s infinite alternate;
 }
+
+@media (max-width: 1024px) {
+  .container {
+    height: 350px;
+  }
+
+  .brick {
+    width: 80px;
+    height: 35px;
+    font-size: 1.5em;
+  }
+
+  .score, .lives {
+    font-size: 1.5em;
+  }
+
+  button, .theme-toggle, .start-button {
+    font-size: 1em;
+    padding: 8px 18px;
+  }
+
+  .buttons {
+    width: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    margin-left: 2.5%;
+    height: 320px;
+  }
+
+  .brick {
+    width: 70px;
+    height: 30px;
+    font-size: 1.2em;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .score, .lives {
+    font-size: 1.2em;
+  }
+
+  button, .theme-toggle, .start-button {
+    font-size: 0.9em;
+    padding: 7px 15px;
+  }
+
+  .buttons {
+    width: 160px;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    height: 300px;
+    border-radius: 10px;
+  }
+
+  .brick {
+    width: 60px;
+    height: 28px;
+    font-size: 1em;
+  }
+
+  .score, .lives {
+    font-size: 1em;
+  }
+
+  .buttons {
+    width: 100%;
+    padding: 0 20px;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  button, .theme-toggle, .start-button {
+    width: 100%;
+    font-size: 0.95em;
+    padding: 10px;
+  }
+}
