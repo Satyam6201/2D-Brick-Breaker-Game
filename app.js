@@ -220,7 +220,7 @@ function startGame() {
     startBtn.style.display = "none";
     restartBtn.style.display = "none";
     player.score = 0;
-    player.lives = 5; // 5 lives
+    player.lives = 5;
     player.inPlay = false;
     ball.style.display = "block";
     ball.style.left = paddle.offsetLeft + 50 + "px";
@@ -239,7 +239,7 @@ function restartGame() {
     startBtn.style.display = "none";
     restartBtn.style.display = "none";
     player.score = 0;
-    player.lives = 5; // Restart with 5 lives
+    player.lives = 5; 
     player.inPlay = false;
     ball.style.display = "block";
     ball.style.left = paddle.offsetLeft + 50 + "px";
@@ -257,8 +257,8 @@ function endGame() {
     gameover.innerHTML = "Game Over<br>Your score " + player.score;
     player.gameover = true;
     ball.style.display = "none";
-    startBtn.style.display = "none"; // Hide the start button after game ends
-    restartBtn.style.display = "inline-block"; // Show the restart button
+    startBtn.style.display = "none"; 
+    restartBtn.style.display = "inline-block"; 
     let tempBricks = document.querySelectorAll('.brick');
     for (let tBrick of tempBricks) {
         tBrick.parentNode.removeChild(tBrick);
