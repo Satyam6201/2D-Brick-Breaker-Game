@@ -93,7 +93,7 @@ h1 {
 }
 
 /* Toggle & Restart Buttons */
-#toggleMode, #restartBtn {
+#toggleMode, #restartBtn, #startBtn {
   padding: 8px 16px;
   font-size: 16px;
   border: none;
@@ -106,7 +106,7 @@ h1 {
   transition: 0.3s ease;
 }
 
-#toggleMode:hover, #restartBtn:hover {
+#toggleMode:hover, #restartBtn:hover, #startBtn:hover {
   background-color: #00ffff;
   transform: scale(1.05);
 }
@@ -159,7 +159,8 @@ h1 {
 }
 
 .dark-mode #toggleMode,
-.dark-mode #restartBtn {
+.dark-mode #restartBtn,
+.dark-mode #startBtn {
   background-color: #ff00ff;
   box-shadow: 0 0 8px #ff00ff;
 }
