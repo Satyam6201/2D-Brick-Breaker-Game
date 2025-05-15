@@ -2,6 +2,8 @@
 
 A classic 2D Brick Breaker game built using **HTML**, **CSS**, and **JavaScript**. The game features a responsive layout, dark/light theme toggle, smooth animations, and fun gameplay mechanics.
 
+### 🚀 [Live Demo](https://2-d-brick-breaker-game.vercel.app/)
+
 ## 🧩 Features
 
 - 🎨 Toggle between Light and Dark Themes
