@@ -48,7 +48,6 @@ A classic 2D Brick Breaker game built using **HTML**, **CSS**, and **JavaScript*
 ## 📬 Contact
 
 Feel free to connect with me:
-
 - [LinkedIn](https://www.linkedin.com/in/satyam-kumar-mishra-9bb980291/)
 - [GitHub](https://github.com/Satyam6201)
 
