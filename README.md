@@ -17,13 +17,9 @@ A classic 2D Brick Breaker game built using **HTML**, **CSS**, and **JavaScript*
 ## 📂 Project Structure
 ```
 ├── index.html # Main HTML structure
-
 ├── style.css # Styling and responsiveness
-
 ├── app.js # Game logic and interactivity
-
 ├── ball.png # Ball texture (optional)
-
 ├── image.webp # Favicon
 ```
 
