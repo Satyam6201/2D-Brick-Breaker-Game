@@ -6,7 +6,7 @@ A classic 2D Brick Breaker game built using **HTML**, **CSS**, and **JavaScript*
 
 <p align="center">
   <a href="https://weather-app-seven-ashen-32.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/🔴 Live-Demo-green?style=for-the-badge" /></a>
-  <a href="https://github.com/Satyam6201/Weather-app" target="_blank"><img src="https://img.shields.io/badge/💻 Source-Code-blue?style=for-the-badge" /></a>
+  <a href="https://github.com/Satyam6201/2D-Brick-Breaker-Game" target="_blank"><img src="https://img.shields.io/badge/💻 Source-Code-blue?style=for-the-badge" /></a>
   <a href="https://www.linkedin.com/in/satyam-kumar-mishra-9bb980291/" target="_blank"><img src="https://img.shields.io/badge/📇 Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin" /></a>
 </p>
 ## 🧩 Features
