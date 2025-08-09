@@ -37,6 +37,8 @@ A classic 2D Brick Breaker game built using **HTML**, **CSS**, and **JavaScript*
 4. Hit all bricks with the ball without losing all lives.
 5. Press **"Restart Game"** to play again.
 
+---
+
 ## 🛠️ Technologies Used
 
 - HTML5
