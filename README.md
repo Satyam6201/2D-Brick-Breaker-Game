@@ -32,6 +32,7 @@ A classic 2D Brick Breaker game built using **HTML**, **CSS**, and **JavaScript*
 ├── app.js # Game logic and interactivity
 ├── image.webp # Favicon
 ```
+---
 
 ## 🚀 How to Play
 
