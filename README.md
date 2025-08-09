@@ -56,6 +56,8 @@ A classic 2D Brick Breaker game built using **HTML**, **CSS**, and **JavaScript*
 
 ![image](https://github.com/user-attachments/assets/37631f5f-5e49-48d1-b811-ebf7f46939d7)
 
+---
+
 ## 📬 Contact
 
 Feel free to connect with me:
