@@ -23,6 +23,8 @@ A classic 2D Brick Breaker game built using **HTML**, **CSS**, and **JavaScript*
 - 📱 Responsive design for desktop and mobile
 - 🔁 Restart & Start buttons
 
+---
+
 ## 📂 Project Structure
 ```
 ├── index.html # Main HTML structure
