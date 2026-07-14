@@ -1,27 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2D Brick Breaker Game</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="image.webp">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>NEON SMASH // Brick Breaker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>2D Brick Breaker Game</h1>
-    <button id="themeToggle" class="theme-toggle">Toggle Theme</button>
-    <div> 
-        <b>Score :</b> <span class="score"></span> 
-        <b>Lives :</b> <span class="lives"></span> 
-    </div>
-    
-    <div class="container"></div>
 
-    <div class="buttons">
-    <button id="startBtn" onclick="startGame()">Start Game</button>
-    <button id="restartBtn" onclick="restartGame()" style="display:none;">Restart Game</button>
+<div class="bg-stars"></div>
+<div class="bg-grid"></div>
+
+<div class="cabinet">
+  <div class="title-row">
+    <h1 class="logo">NEON<span>SMASH</span></h1>
+    <div class="toolbar">
+      <button class="btn" id="pauseBtn" title="Pause (P)">⏸ PAUSE</button>
+      <button class="btn" id="muteBtn" title="Toggle sound">🔊 SOUND</button>
+      <button class="btn pink on" id="crtBtn" title="Toggle CRT scanlines">📺 CRT</button>
+    </div>
+  </div>
+
+  <div class="hud">
+    <div class="stat"><div class="label">SCORE</div><div class="value" id="scoreVal">0</div></div>
+    <div class="stat lives"><div class="label">LIVES</div><div class="value" id="livesVal">3</div></div>
+    <div class="stat level"><div class="label">LEVEL</div><div class="value" id="levelVal">1</div></div>
+    <div class="stat combo"><div class="label">COMBO</div><div class="value" id="comboVal">x1</div></div>
+  </div>
+
+  <div class="stage crt" id="stage">
+    <canvas id="game"></canvas>
+
+    <div class="overlay" id="startScreen">
+      <h2 class="display">NEON SMASH</h2>
+      <p>Bounce the neon ball, shatter every brick, and catch falling power-ups before they burn out. Reach the highest level you can — the arcade never stops watching your score.</p>
+      <button class="big-btn" id="startBtn">▶ START GAME</button>
+      <div class="legend">
+        <span><i class="chip" style="color:var(--cyan)"></i>WIDEN paddle</span>
+        <span><i class="chip" style="color:var(--purple)"></i>MULTI ball</span>
+        <span><i class="chip" style="color:var(--pink)"></i>SLOW time</span>
+        <span><i class="chip" style="color:var(--green)"></i>EXTRA life</span>
+      </div>
     </div>
 
-   <script src="app.js"></script>
+    <div class="overlay hidden" id="pauseScreen">
+      <h2 class="display">PAUSED</h2>
+      <button class="big-btn" id="resumeBtn">▶ RESUME</button>
+    </div>
+
+    <div class="overlay hidden" id="gameOverScreen">
+      <h2 class="display" id="gameOverTitle">GAME OVER</h2>
+      <p id="gameOverText">Your score: 0</p>
+      <button class="big-btn" id="restartBtn">↻ PLAY AGAIN</button>
+    </div>
+
+    <div class="overlay hidden" id="levelUpScreen">
+      <h2 class="display">LEVEL <span id="levelUpNum">2</span></h2>
+      <p>Speed rises. Bricks reform. Stay sharp.</p>
+    </div>
+  </div>
+
+  <footer class="hint">
+    <kbd>←</kbd> <kbd>→</kbd> or drag / swipe to move &nbsp;·&nbsp; <kbd>SPACE</kbd> launch ball &nbsp;·&nbsp; <kbd>P</kbd> pause
+  </footer>
+</div>
+
+<script src="app.js"></script>
 </body>
 </html>
